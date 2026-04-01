@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/cc2cbf9a1fcb0680ae45b63918823b9c/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/ea5fdb68abbdbf0efbaf036fe67ff458/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/21aa2caad0e83ca53dbfb6f7c96908ef/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/21aa2caad0e83ca53dbfb6f7c96908ef/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/21aa2caad0e83ca53dbfb6f7c96908ef/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/21aa2caad0e83ca53dbfb6f7c96908ef/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/21aa2caad0e83ca53dbfb6f7c96908ef/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/21aa2caad0e83ca53dbfb6f7c96908ef/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/21aa2caad0e83ca53dbfb6f7c96908ef/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Mi/ST-3/build/_deps/googletest-subbuild/CMakeFiles/21aa2caad0e83ca53dbfb6f7c96908ef/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}
