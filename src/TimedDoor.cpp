@@ -54,9 +54,6 @@ void TimedDoor::throwState() {
     throw std::runtime_error("Door left opened for too long");
 }
 
-//
-// Timer
-//
 void Timer::sleep(int time) {
     std::this_thread::sleep_for(std::chrono::seconds(time));
 }
