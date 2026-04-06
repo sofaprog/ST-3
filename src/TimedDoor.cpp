@@ -1,4 +1,4 @@
-// Copyright 2021 GHA Test Team
+// Copyright 2024 Sofia Makoveeva
 #include "TimedDoor.h"
 #include <thread>
 #include <chrono>
