@@ -4,7 +4,7 @@
 #include <thread>
 #include <chrono>
 
-// ─── Timer ───────────────────────────────────────────────────────────────────
+// ─── Timer ──────────────
 
 void Timer::sleep(int seconds) {
     std::this_thread::sleep_for(std::chrono::seconds(seconds));
@@ -16,7 +16,7 @@ void Timer::tregister(int timeout, TimerClient* c) {
     client->Timeout();
 }
 
-// ─── DoorTimerAdapter ─────────────────────────────────────────────────────────
+// ─── DoorTimerAdapter ──────
 
 DoorTimerAdapter::DoorTimerAdapter(TimedDoor& d) : door(d) {}
 
@@ -24,7 +24,7 @@ void DoorTimerAdapter::Timeout() {
     door.throwState();
 }
 
-// ─── TimedDoor ────────────────────────────────────────────────────────────────
+// ─── TimedDoor ──────────────────────
 
 TimedDoor::TimedDoor(int timeout) : iTimeout(timeout), isOpened(false) {
     adapter = new DoorTimerAdapter(*this);

@@ -9,7 +9,7 @@
 using ::testing::_;
 using ::testing::AtLeast;
 
-// ─── Mock-классы для тестирования интерфейсов ────────────────────────────────
+// ─── Mock-классы для тестирования интерфейсов ───
 
 class MockDoor : public Door {
  public:
@@ -23,7 +23,7 @@ class MockTimerClient : public TimerClient {
     MOCK_METHOD(void, Timeout, (), (override));
 };
 
-// ─── Фикстура для основных тестов ────────────────────────────────────────────
+// ─── Фикстура для основных тестов ──────────────
 
 class TimedDoorTest : public ::testing::Test {
  protected:
@@ -38,7 +38,7 @@ class TimedDoorTest : public ::testing::Test {
     }
 };
 
-// ─── Тесты TimedDoor ──────────────────────────────────────────────────────────
+// ─── Тесты TimedDoor ────────────
 
 // 1. Дверь создаётся в закрытом состоянии
 TEST_F(TimedDoorTest, InitiallyDoorIsClosed) {
@@ -88,7 +88,7 @@ TEST_F(TimedDoorTest, ThrowStateNoThrowAfterUnlockThenLock) {
     EXPECT_NO_THROW(door->throwState());
 }
 
-// ─── Фикстура для тестов адаптера ────────────────────────────────────────────
+// ─── Фикстура для тестов адаптера ───────
 
 class DoorTimerAdapterTest : public ::testing::Test {
  protected:
@@ -118,7 +118,7 @@ TEST_F(DoorTimerAdapterTest, TimeoutDoesNotThrowWhenDoorIsClosed) {
     EXPECT_NO_THROW(adapter->Timeout());
 }
 
-// ─── Тесты Mock-интерфейсов ───────────────────────────────────────────────────
+// ─── Тесты Mock-интерфейсов ───────────
 
 // 11. MockDoor: lock() вызывается ровно один раз
 TEST(MockDoorTest, LockCalledOnce) {
